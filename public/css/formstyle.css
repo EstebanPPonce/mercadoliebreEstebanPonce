@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #e0dddd;
+}
+
+.form1 {
+    margin: 20px 20% 20px 33%;
+    
+}
+.completar-datos1 {
+    width: 100%;
+    max-width: 360px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+
+.subtitulos {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 1.25em;
+    
+}
+
+.contenedor-fecha {
+    margin-bottom: 10px;
+}
+
+.contenedor-tipo-usuario {
+    display: flex;
+    align-content: flex-start;
+    justify-content:space-around;
+    margin: 10px 0;
+    max-width: 250px;
+}
+
+.contenedor-intereses {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.contenedorB-intereses {
+    margin: 10px;
+}
+.container-foto {
+    
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.texto-foto {
+    font-weight: bolder;
+    font-size: 1.25em;
+    margin-bottom: 7.5px;
+    display: block;
+}
+.contenedor-contraseña {
+    display: flex;
+    flex-direction: column;
+}
+.label-contraseña {
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 1.15em;
+}
+#contraseña, #confirmar-contraseña {
+    margin-bottom: 10px;
+    height: 25px;
+    max-width: 360px;
+    border: none;
+    border-radius: 4px;
+}
+
+.contenedor-botonform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 360px;
+}
+.boton-form {
+    width: 75%;
+    max-width: 200px;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+@media (min-width: 1200px) {
+    .main-header-top-bar, .main-header-bottom-bar {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .main-header-bottom-bar ul li {
+        margin: 0 10px;
+    }
+    .main-header-bottom-bar ul li a {
+        font-size: 19px; 
+    }
+    .compra-cuotas {
+        max-width: none;
+    }
+    .logo {
+        width: 250px;
+    }
+    .main-header-bottom-bar {
+        margin-top: 30px;
+    }
+    .main-header-top-bar {
+        align-items: center;
+        
+    }
+    .wrapper {
+        width: 25%;
+    }
+    .nombre-producto {
+        display: none;
+    }
+    .articulosA:hover .nombre-producto {
+        display: block;
+    }
+
+    .articulosA {
+        box-shadow: none;
+    }
+    .articulosA:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .articulosA #camion {
+        transition: transform 0.5s;
+    }
+    .articulosA:hover #camion {
+        transition: all 0.5s;
+        transform: rotate(90deg);
+    }
+}

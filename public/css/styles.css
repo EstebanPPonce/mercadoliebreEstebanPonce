@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+}
+
+h2 {
+    margin: 15px 0;
+}
+
+footer {
+    text-align: center;
+    width: 90%;
+    margin: 5px auto;
+    background-color: white;
+}
+.footer-section {
+    margin-bottom: 15px;
+}
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+    
+}
+
+.main-header-bottom-bar {
+    display: none;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+.compra-cuotas {
+    font-weight: 400;
+    text-align: center;
+    margin: 17px;
+}
+
+.burger-menu {
+    color: white;
+    background-color:#080bd6;
+    width: 35px;
+    padding: 10px;
+    text-align: center;
+    margin: 0.5em auto;
+    border-radius: 5px;
+
+}
+
+#camion {
+    font-size: 16px;
+    color: rgb(15, 177, 82);
+    border: 1px solid rgb(15, 177, 82);
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: -15px;    
+    
+}
+
+.titulares {
+    font-size: 24px;
+    text-align: center;
+}
+
+.precios {
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: rgb(39, 160, 39);
+    width: 70%;
+}
+
+.nombre-producto {
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.left-navbar {
+    margin: 10px 0 5px 0;
+}
+.right-navbar {
+    margin: 10px 0 10px 0;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 7.5px 0px 7.5px 0px;
+    background-color: #ebebeb;
+}
+
+article {
+    margin: 10px;
+    background-color: white;
+}
+
+.subbox-articulos {
+    border-top: solid 1px #ebebeb;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+footer section i {
+    color: #144bc2;
+    font-size: 24px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.copyright-section {
+    text-align: left;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .compra-cuotas {
+        max-width: 350px;
+        text-align: right;
+        font-size: 1.5rem;
+    }
+    .main-header-bottom-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-header-bottom-bar ul {
+        display: flex;
+        margin: 10px 0;
+    }
+    .main-header-bottom-bar ul li {
+        margin: 0 5px;
+    }
+    .section-container1 {
+        display: flex;
+    }
+    
+    
+
+}
+
